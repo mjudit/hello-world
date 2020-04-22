@@ -1,3 +1,3 @@
 # hello-world
 proba tároló
-ez itt a változatás
+hello-world ez itt a szuper ötlet
