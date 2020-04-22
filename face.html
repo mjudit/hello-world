@@ -1,0 +1,69 @@
+﻿<doctype html>
+<html>
+<head>
+<meta lang="hu" charset="utf-8"/>
+<style>
+
+#n{
+	padding:8px;
+	margin:5px;
+	font-size:12pt;
+	color: gray;
+}
+#gomb{
+	padding:8px 40px;
+	font-size:14pt;
+	color: white;
+	background-color:green;
+	border:none;
+	border-radius:5px;
+}
+#gomb:hover{
+	background-color:#00aa00;
+}
+</style>
+</head>
+
+<body>
+<form>
+<label for="nev">Felhasználói név:</label><input type="text" name="nev" autofocus>
+<label for="pass">Jelszó:</label><input type="password"  name="pass">
+<br>
+<p>Regisztráció:</p>
+<label for="vnev"> </label><input type="text" id="n" name="vnev" placeholder="vezetéknév" size=20 title="mi a neved?">
+<label for="unev"> </label><input type="text" id="n" name="unev" placeholder="utónév" size=20><br><br>
+<label for="email"> </label><input type="text" id="n" name="email" placeholder="mobil vagy email" size=45><br>
+<label for="email"> </label><input type="text" id="n" name="email" placeholder="mobil vagy email ismét" size=45><br>
+<label for="pas"> </label><input type="password" id="n" name="email" placeholder="új jelszó" size=45><br>
+<p>Születésnap:</p>
+<select id="n">
+	<option>--Év-- </option>
+	<option>2020</option>
+	<option>2019</option>
+	<option>2017</option>
+	<option>2016</option>
+</select>
+<select id="n">
+	<option>--hónap-- </option>
+	<option>január</option>
+	<option>február</option>
+	<option>március</option>
+	<option>december</option>
+</select>
+<select id="n">
+	<option>--nap-- </option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+</select>
+<p>Nem:</p>
+<label for="male">Férfi</label><input type="radio" id="male" name="gender" value="male">
+<label for="female">Nő</label><input type="radio" id="female" name="gender" value="female">
+<label for="other">Egyéni</label> <input type="radio" id="other" name="gender" value="other">
+<p>
+<input type="button" id="gomb" name="reg" value="Regisztráció">
+</p>
+</form>
+</body>
+</html>
