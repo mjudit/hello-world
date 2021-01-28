@@ -27,13 +27,14 @@ if (Math.floor(a) == a) {
     document.write("nem egész számot adtál meg");
 }
 document.write("<br>");
-a = prompt("Kérek egy számot! ");
-if (isFinite(a)) {
-    if (Math.floor(a) == a) {
-        if (a % 2 == 0) {
-            document.write("a ", a, " páros");
+b = prompt("Kérek egy számot! ");
+if (isFinite(b)) {
+    if (Math.floor(b) == b) {
+        if (b % 2 == 0) {
+            document.write("a ", b, " páros");
         } else {
-            document.write("a ", a, " páratlan");
+            document.write("a ", b, " páratlan");
+            s
         }
     } else {
         document.write("nem egész számot adtál meg");
